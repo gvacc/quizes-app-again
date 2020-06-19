@@ -1,0 +1,60 @@
+.Input {
+	max-width: 100%;
+	margin: 20px auto 15px auto;
+	display: flex;
+	justify-content: left;
+	flex-direction: column;
+	font-size: 15px;
+	padding: 0 10px;
+	position: relative;
+}
+
+.Input.answerStyle  {
+	max-width: 50%;
+	display: inline-block;
+	margin: 10px auto;
+}
+
+.Input.answerStyle input {
+	min-width: 240px;
+	padding: 7px 5px;
+}
+
+.Input input{
+	border: 1px solid #eee;
+	padding: 7px 5px;
+	font-family: 'Montserrat';
+	margin-bottom: 5px;
+}
+
+.Input label {
+	display: block;
+	margin-bottom: 5px;
+	text-align: left;
+}
+
+.Input.error label {
+	color: #f72323;
+}
+
+.errorMessage {
+	text-align: left;
+	color: #f72323;
+	position: absolute;
+	bottom: -14px;
+	left: 9px;
+	font-size: 12px;
+}
+
+@media screen and (max-width: 563px) {
+	.Input.answerStyle  {
+		max-width: 100%;
+		display: flex;
+		margin: 10px auto 0 auto;
+	}
+	.Input.answerStyle input {
+		border: 1px solid #eee;
+		font-family: 'Montserrat';
+		margin-bottom: 5px;
+	}
+}

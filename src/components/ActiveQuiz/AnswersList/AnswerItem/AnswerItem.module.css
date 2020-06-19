@@ -1,0 +1,16 @@
+.AnswerItem {
+	border: 1px solid #ccc;
+	padding: 9px;
+	margin-bottom: 10px;
+	cursor: pointer;
+	transition: background .2s ease-in-out;
+	background: rgba(255,255,255, .05);
+}
+
+.error {
+	background: #f44336;
+}
+
+.success {
+	background: #4caf50
+}

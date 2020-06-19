@@ -1,0 +1,13 @@
+.Select {
+	width: 100%;
+	text-align: left;
+	padding: 0 13px;
+}
+
+.Select label {
+	margin-right: 10px;
+}
+
+.Select select {
+	border: 1px solid #eee;
+}

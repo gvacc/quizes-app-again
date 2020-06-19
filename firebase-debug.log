@@ -1,0 +1,10 @@
+[debug] [2020-06-14T09:03:04.307Z] ----------------------------------------------------------------------
+[debug] [2020-06-14T09:03:04.312Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Гвач\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js logout
+[debug] [2020-06-14T09:03:04.313Z] CLI Version:   8.1.1
+[debug] [2020-06-14T09:03:04.313Z] Platform:      win32
+[debug] [2020-06-14T09:03:04.313Z] Node Version:  v12.16.3
+[debug] [2020-06-14T09:03:04.314Z] Time:          Sun Jun 14 2020 14:03:04 GMT+0500 (GMT+05:00)
+[debug] [2020-06-14T09:03:04.315Z] ----------------------------------------------------------------------
+[debug] [2020-06-14T09:03:04.315Z] 
+[debug] [2020-06-14T09:03:04.506Z] >>> HTTP REQUEST GET https://accounts.google.com/o/oauth2/revoke?token=1%2F%2F0cko3ztstAqcbCgYIARAAGAwSNwF-L9IrDsXyhu5qmf5f8ujg1KVouBDYmlVF4uitI0kPCI7G9gB7_TUYEZjeopkm2IULE9pH9Vw  
+ 

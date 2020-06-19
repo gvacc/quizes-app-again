@@ -1,0 +1,45 @@
+.Register {
+	min-height: 250px;
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 25px 0;
+	color: #fff;
+}
+h1 {
+	text-align: center;
+	margin-top: 70px;
+	color: #fff;
+}
+
+.Register h5 {
+	text-decoration: underline;
+	font-size: 13px;
+	font-weight: normal;
+	padding-left: 9px;
+	cursor: pointer;
+}
+
+.actions {
+	padding: 0 10px;
+	display: flex;
+	align-items: center;
+}
+
+button {
+	flex-grow: 1;
+}
+
+@media screen and (max-width: 800px) {
+	.Register {
+		max-width: 80%;
+	}
+	.actions {
+		flex-direction: column;
+	}
+	button{
+		width: 100%;
+	}
+	h5 {
+		margin-bottom: 15px;
+	}
+}
